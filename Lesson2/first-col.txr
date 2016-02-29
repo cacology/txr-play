@@ -1,0 +1,8 @@
+@(collect)
+@col1,@col2,@col3,@col4,@col5
+@(end)
+@(output)
+@(repeat)
+Yo: @col1
+@(end)
+@(end)

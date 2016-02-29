@@ -1,0 +1,8 @@
+@(collect)
+APU000074714     @\t@{year}@\t@{period}@\t       @{value}@\t@{footnote_codes}
+@(end)
+@(output)
+@(repeat)
+@{year},@{period},@{value}
+@(end)
+@(end)

@@ -1,0 +1,11 @@
+#!/usr/local/bin/txr -f
+@; (bind apunum "APU000074714")
+@; (bind year "2014")
+@(collect)
+@{apunum}@/\s+/@{year}@\t@{period}@\t@/\s*/@{value}@\t@{footnote_codes}
+@(end)
+@(output)
+@(repeat)
+@{year},@{period},@{value}
+@(end)
+@(end)
